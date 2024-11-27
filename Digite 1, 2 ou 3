@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        while (true) {
+            Scanner leia = new Scanner(System.in);
+            System.out.println("Digite 1, 2 ou 3: ");
+            int input = leia.nextInt();
+            if (input == 1) {
+                System.out.println("Voce escolheu 1.");
+                break;
+            } else if (input == 2) {
+                System.out.println("Voce escolheu 2.");
+                break;
+            } else if (input == 3) {
+                System.out.println("Voce escolheu 3");
+                break;
+            } else {
+                System.out.println("Por favor, insira 1, 2 ou 3.");
+            }
+        }
+    }
+}
